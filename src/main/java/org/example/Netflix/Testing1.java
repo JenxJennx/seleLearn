@@ -12,7 +12,7 @@ public class Testing1 {
     public static void main(String[] args) {
         WebDriver webDriver = new ChromeDriver(); //use of polymorphism to create an instance of chromedriver and assigning it to a variable of type webdriver. Interact with chromedriver through the webdriver interface
         System.setProperty("webdriver.chrome.driver", "chromedriver"); //Provides the path to the webdriver executable for Chrome. Its a map key and value
-        webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); //ensures the webdriver waita s certains amount of time before doing its search so it doesnt throw an exception
+        webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); //ensures the webdriver waits certains amount of time before doing its search so it doesnt throw an exception
         webDriver.manage().window().maximize();
         webDriver.get("https://www.verizon.com/");
         WebElement signInButton = webDriver.findElement(By.id("gnav20-sign-id"));
