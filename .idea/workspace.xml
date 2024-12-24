@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51e76018-7df5-433b-90c5-09d5d7e48354" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tableTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/VerizonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/googlePicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/udemyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Netflix/Testing1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Netflix/Testing1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Netflix/Testing1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testing1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/clicking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wikiClickingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tableTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tableTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/textTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/textTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,27 +61,17 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.tableTesting">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="selePractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.VerizonTest">
     <configuration name="Testing1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Netflix.Testing1" />
+      <option name="MAIN_CLASS_NAME" value="Testing1" />
       <module name="selePractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Netflix.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,25 +79,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="clicking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.clicking" />
+    <configuration name="VerizonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VerizonTest" />
       <module name="selePractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="tableTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.tableTesting" />
+      <option name="MAIN_CLASS_NAME" value="tableTesting" />
       <module name="selePractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +99,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="textTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.textTest" />
+    <configuration name="udemyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udemyTest" />
+      <module name="selePractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wikiClickingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wikiClickingTest" />
       <module name="selePractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VerizonTest" />
+        <item itemvalue="Application.udemyTest" />
+        <item itemvalue="Application.wikiClickingTest" />
         <item itemvalue="Application.tableTesting" />
         <item itemvalue="Application.Testing1" />
-        <item itemvalue="Application.textTest" />
-        <item itemvalue="Application.clicking" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

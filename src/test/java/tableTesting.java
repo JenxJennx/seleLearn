@@ -1,20 +1,31 @@
-package org.example;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class tableTesting {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         System.setProperty("webdriver.chrome.driver", "chromedriver");
+        //implicit wait
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get("http://localhost:63342/selePractice/org/example/table.html?_ijt=9japutbg44vfoq3dp997mgvm7t&_ij_reload=RELOAD_ON_SAVE");
         //driver.close();
+
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+
+        //System.out.println(driver.findElement(By.xpath("/html/body/table/tbody/tr[1]/th[1]")).getText());
+
+        List<WebElement> listOfWebElements = driver.findElements(By.xpath("/html/body/table/tbody[1]/tr"));
+        for(WebElement element : listOfWebElements){
+            System.out.println(element.getText());
+        }
+        driver.close();
 
         WebElement link = driver.findElement(By.cssSelector("body > table > tbody > tr:nth-child(2) > td:nth-child(4) > a"));
         link.click();
@@ -55,6 +66,7 @@ public class tableTesting {
         submitButton.click();
 
         //driver.close();
+       // driver.findElements(By.path());
 
     }
 }
